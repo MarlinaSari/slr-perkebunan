@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Waktu pembuatan: 20 Okt 2024 pada 06.56
+-- Waktu pembuatan: 20 Okt 2024 pada 09.32
 -- Versi server: 8.0.30
 -- Versi PHP: 8.1.10
 
@@ -104,13 +104,13 @@ INSERT INTO `kakaos` (`id`, `lokasi`, `tahun`, `periode`, `produksi`, `alpha`) V
 (28, 'Woyla', '2021', 4, 32.18, NULL),
 (29, 'Woyla', '2022', 5, 31.4, NULL),
 (30, 'Woyla', '2023', 6, 24.7, NULL),
-(31, 'Woyla Barat', '2018', 1, 3.6, NULL),
+(31, 'Woyla Barat', '2018', 1, 36, NULL),
 (32, 'Woyla Barat', '2019', 2, 34.96, NULL),
 (33, 'Woyla Barat', '2020', 3, 30.39, NULL),
 (34, 'Woyla Barat', '2021', 4, 30.39, NULL),
 (35, 'Woyla Barat', '2022', 5, 28.56, NULL),
 (36, 'Woyla Barat', '2023', 6, 19.5, NULL),
-(37, 'Woyla Timur', '2018', 1, 28.4, NULL),
+(37, 'Woyla Timur', '2018', 1, 2.84, NULL),
 (38, 'Woyla Timur', '2019', 2, 8.88, NULL),
 (39, 'Woyla Timur', '2020', 3, 3.89, NULL),
 (40, 'Woyla Timur', '2021', 4, 3.89, NULL),
