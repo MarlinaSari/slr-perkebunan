@@ -68,7 +68,7 @@ class SESService
             }
 
             // Hitung MAPE
-            $kakao[$location->lokasi]['MAPE'] = $totalAPE / ($n - 1); // Rata-rata dari APE
+            $kakao[$location->lokasi]['MAPE'] = $totalAPE / ($n); // Rata-rata dari APE
 
             // Simpan prediksi
             $kakao[$location->lokasi]['predictions'] = [];
@@ -123,7 +123,7 @@ class SESService
             }
 
             // Hitung MAPE
-            $sawit[$location->lokasi]['MAPE'] = $totalAPE / ($n - 1); // Rata-rata dari APE
+            $sawit[$location->lokasi]['MAPE'] = $totalAPE / ($n); // Rata-rata dari APE
 
             // Simpan prediksi
             $sawit[$location->lokasi]['predictions'] = [];
@@ -178,7 +178,7 @@ class SESService
             }
 
             // Hitung MAPE
-            $karet[$location->lokasi]['MAPE'] = $totalAPE / ($n - 1); // Rata-rata dari APE
+            $karet[$location->lokasi]['MAPE'] = $totalAPE / ($n); // Rata-rata dari APE
 
             // Simpan prediksi
             $karet[$location->lokasi]['predictions'] = [];
@@ -234,7 +234,7 @@ class SESService
 
             // Hitung MAPE
             if ($n > 1) {
-                $kelapa[$location->lokasi]['MAPE'] = $totalAPE / ($n - 1); // Rata-rata dari APE
+                $kelapa[$location->lokasi]['MAPE'] = $totalAPE / ($n); // Rata-rata dari APE
             } else {
                 $kelapa[$location->lokasi]['MAPE'] = 0; // Atur MAPE sebagai 0 jika hanya ada satu data
             }
@@ -292,7 +292,7 @@ class SESService
 
             // Hitung MAPE
             if ($n > 1) {
-                $kopi[$location->lokasi]['MAPE'] = $totalAPE / ($n - 1); // Rata-rata dari APE
+                $kopi[$location->lokasi]['MAPE'] = $totalAPE / ($n); // Rata-rata dari APE
             } else {
                 $kopi[$location->lokasi]['MAPE'] = 0; // Atur MAPE sebagai 0 jika hanya ada satu data
             }
