@@ -48,7 +48,7 @@ class KaretController extends Controller
         $karetRegression = $regressionData['karet'];
 
         // Menghitung SES dengan Alpha dari input
-        $alpha = $request->input('alpha', 0.5); // Ambil Alpha dari input form (default 0.2)
+        $alpha = $request->input('alpha', 0.2); // Ambil Alpha dari input form (default 0.2)
         $karetSES = $this->sesService->calculateKaretSES($alpha); // Gunakan Alpha hanya untuk SES
 
         return view('pages.karet-index', compact('karetRegression', 'karetSES', 'kecamatan'));
